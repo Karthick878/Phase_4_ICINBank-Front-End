@@ -1,0 +1,29 @@
+
+
+
+.section1
+{
+ background-image: url("../../assets/istockphoto-1320711426-170667a.jpg");
+ background-repeat: no-repeat;
+ background-size:cover;
+ background-position:center;
+}
+
+.carousel .carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+.carousel-indicators li { visibility: hidden; }
+
+.carousel-caption{
+  top: 50px;
+}
+
